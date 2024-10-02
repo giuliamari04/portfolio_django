@@ -1,0 +1,98 @@
+[
+    {
+        "model": "portfolio_app.posts",
+        "pk": 1,
+        "fields": {
+            "name": "Backery - Avada Shop",
+            "description":"descrizione",
+            "start_date":"2022-02-10",
+            "technologies": [1, 2],
+            "slug":"backery-avada-shop",
+            "collaborations":null
+        }
+    },
+    {
+        "model": "portfolio_app.posts",
+        "pk": 2,
+        "fields": {
+            "name": "Booleando",
+            "description":"descrizione",
+            "start_date":"2022-02-10",
+            "technologies": [1, 2],
+            "slug":"booleando",
+            "collaborations":null
+        }
+    },
+    {
+        "model": "portfolio_app.posts",
+        "pk": 3,
+        "fields": {
+            "name": "Boolearn",
+            "description":"descrizione",
+            "start_date":"2022-02-10",
+            "technologies": [1, 2],
+            "slug":"boolearn",
+            "collaborations":null
+        }
+    },
+    {
+        "model": "portfolio_app.posts",
+        "pk": 4,
+        "fields": {
+            "name": "Boolflix",
+            "description":"descrizione",
+            "start_date":"2022-02-10",
+            "technologies": [1, 2],
+            "slug":"boolflix",
+            "collaborations":null
+        }
+    },
+    {
+        "model": "portfolio_app.posts",
+        "pk": 5,
+        "fields": {
+            "name": "Boolzapp",
+            "description":"descrizione",
+            "start_date":"2022-02-10",
+            "technologies": [1, 2],
+            "slug":"boolzapp",
+            "collaborations":null
+        }
+    },
+    {
+        "model": "portfolio_app.posts",
+        "pk": 6,
+        "fields": {
+            "name": "Discord",
+            "description":"descrizione",
+            "start_date":"2022-02-10",
+            "technologies": [1, 2],
+            "slug":"discord",
+            "collaborations":null
+        }
+    },
+    {
+        "model": "portfolio_app.posts",
+        "pk": 7,
+        "fields": {
+            "name": "Dropbox",
+            "description":"descrizione",
+            "start_date":"2022-02-10",
+            "technologies": [1, 2],
+            "slug":"dropbox",
+            "collaborations":null
+        }
+    },
+    {
+        "model": "portfolio_app.posts",
+        "pk": 8,
+        "fields": {
+            "name": "Spotify",
+            "description":"descrizione",
+            "start_date":"2022-02-10",
+            "technologies": [1, 2],
+            "slug":"spotify",
+            "collaborations":null
+        }
+    }
+]

@@ -31,16 +31,20 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'corsheaders',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'portfolio_django',
+    'portfolio_app',
+    'rest_framework', # per Api
+    
 ]
 
 MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware', #deve essere il primo
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -48,6 +52,9 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+]
+CORS_ALLOWED_ORIGINS = [
+    "http://localhost:5173",  # Aggiungi qui il dominio del frontend Vue.js
 ]
 
 ROOT_URLCONF = 'portfolio_django.urls'
@@ -77,7 +84,7 @@ WSGI_APPLICATION = 'portfolio_django.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'django_base',  # Il nome del database che hai creato tramite phpMyAdmin
+        'NAME': 'portfolio_django',  # Il nome del database che hai creato tramite phpMyAdmin
         'USER': 'root',                   # Il nome utente del database MySQL
         'PASSWORD': 'DoraGin2021!',               # La password dell'utente MySQL
         'HOST': 'localhost',              # Se il server MySQL è in esecuzione localmente

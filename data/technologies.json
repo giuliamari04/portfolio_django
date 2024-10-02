@@ -1,0 +1,92 @@
+[
+    {
+        "model": "portfolio_app.technologies",
+        "pk": 1,
+        "fields": {
+            "name": "HTML",
+            "url_logo": "https://img.icons8.com/?size=100&id=20909&format=png&color=000000"
+        }
+    },
+    {
+        "model": "portfolio_app.technologies",
+        "pk": 2,
+        "fields": {
+            "name": "CSS",
+            "url_logo": "https://img.icons8.com/?size=100&id=21278&format=png&color=000000"
+        }
+      
+    },
+    {
+        "model": "portfolio_app.technologies",
+        "pk": 3,
+        "fields": {
+            "name": "JavaScript",
+            "url_logo": "https://img.icons8.com/?size=100&id=PXTY4q2Sq2lG&format=png&color=000000"
+        }
+     
+    },
+    {
+        "model": "portfolio_app.technologies",
+        "pk": 4,
+        "fields": {
+            "name": "Vue.js",
+            "url_logo": "https://img.icons8.com/?size=100&id=rY6agKizO9eb&format=png&color=000000"
+        }
+    },
+    {
+        "model": "portfolio_app.technologies",
+        "pk": 5,
+        "fields": {
+            "name": "Laravel",
+            "url_logo": "https://img.icons8.com/?size=100&id=114956&format=png&color=000000"
+        }
+    },
+    {
+        "model": "portfolio_app.technologies",
+        "pk": 6,
+        "fields": {
+            "name": "PHP",
+            "url_logo": "https://img.icons8.com/?size=100&id=39852&format=png&color=000000"
+        }
+    },
+    {
+        "model": "portfolio_app.technologies",
+        "pk": 7,
+        "fields": {
+            "name": "Sass",
+            "url_logo": "https://img.icons8.com/?size=100&id=QBqFNfPPB2Kx&format=png&color=000000"
+        }
+      },
+       {
+        "model": "portfolio_app.technologies",
+        "pk": 8,
+        "fields": {
+            "name": "Bootstrap",
+            "url_logo": "https://img.icons8.com/?size=100&id=EzPCiQUqWWEa&format=png&color=000000"
+        }
+      },
+      {
+        "model": "portfolio_app.technologies",
+        "pk": 9,
+        "fields": {
+            "name": "GitHub",    
+            "url_logo": "https://img.icons8.com/?size=100&id=12599&format=png&color=000000"
+        }
+      },
+      {
+        "model": "portfolio_app.technologies",
+        "pk": 10,
+        "fields": {
+            "name": "Tailwind",    
+            "url_logo": "https://img.icons8.com/?size=100&id=x7XMNGh2vdqA&format=png&color=000000"
+        }
+      },
+      {
+       "model":"portfolio_app.technologies",
+       "pk":11,
+       "fields":{
+             "name": "Django",    
+            "url_logo": "https://img.icons8.com/?size=100&id=mUBILbYvUMq8&format=png&color=000000"
+        }
+       }
+    ]
