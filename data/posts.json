@@ -4,23 +4,25 @@
         "pk": 1,
         "fields": {
             "name": "Backery - Avada Shop",
-            "description":"descrizione",
+            "description":"Per questo progetto, ho ricreato la pagina del sito Cone Theory di Avada Shop, una piattaforma dedicata alla promozione e vendita di prodotti di pasticceria, utilizzando Vue.js come framework di sviluppo front-end. La pagina è caratterizzata da un design minimalista ed elegante, con una particolare attenzione ai dettagli visivi e alla tipografia, che riflettono pienamente l'estetica raffinata del brand. Durante il processo di sviluppo, ho replicato con precisione la struttura e il layout dell'originale, garantendo una navigazione fluida e un'esperienza utente ottimale su tutti i dispositivi. Il progetto si distingue per la sua cura nei dettagli visivi, con l'obiettivo di comunicare al meglio l'identità del marchio.",
             "start_date":"2022-02-10",
-            "technologies": [1, 2],
+            "technologies": [1, 7, 3, 8, 4],
             "slug":"backery-avada-shop",
-            "collaborations":null
+            "link_repo":"https://github.com/giuliamari04/proj-html-vuejs",
+            "collaborations":"Realizzato in autonomia durante il corso di Boolean"
         }
     },
     {
         "model": "portfolio_app.posts",
         "pk": 2,
         "fields": {
-            "name": "Booleando",
-            "description":"descrizione",
+            "name": "Boolando",
+            "description":"Per questo progetto, ho sviluppato una pagina di e-commerce di abbigliamento, ispirata a piattaforme come Zalando, utilizzando solo HTML e CSS. La pagina presenta un layout pulito e moderno, progettato per offrire una navigazione semplice e intuitiva agli utenti.",
             "start_date":"2022-02-10",
             "technologies": [1, 2],
-            "slug":"booleando",
-            "collaborations":null
+            "slug":"boolando",
+            "link_repo":"https://github.com/giuliamari04/html-css-boolando",
+            "collaborations":"Realizzato in autonomia durante il corso di Boolean"
         }
     },
     {
@@ -28,11 +30,12 @@
         "pk": 3,
         "fields": {
             "name": "Boolearn",
-            "description":"descrizione",
+            "description":"Il progetto \"Boolearn\" è una piattaforma educativa online che si ispira alla pagina di edX, progettata per offrire agli utenti un accesso facile e intuitivo a corsi di alta qualità offerti da istituzioni di formazione leader nel mondo. La pagina principale è realizzata con un layout responsivo e attraente, che utilizza Laravel Blade per una gestione efficiente dei contenuti. La sezione iniziale della homepage presenta i loghi di vari fornitori di corsi, creando immediatamente un senso di fiducia e diversità nell'offerta formativa. Gli utenti possono esplorare oltre 250 istituzioni di apprendimento attraverso una barra di navigazione ben strutturata che include categorie come \"Executive Education\", \"Master's Degrees\" e \"Bachelor's Degrees\". Inoltre, l'interfaccia è arricchita con una serie di badge che evidenziano le aree tematiche di interesse, come Intelligenza Artificiale, Data Science e Sviluppo Web. Nella parte centrale della pagina, vengono mostrati i corsi disponibili attraverso schede interattive, complete di immagini accattivanti e informazioni dettagliate sui corsi e i fornitori. Ogni scheda include un link che consente agli utenti di approfondire le informazioni relative a ciascun corso, favorendo una navigazione fluida e intuitiva. La sezione \"Explore top courses\" mette in evidenza corsi di particolare rilievo, offrendo agli utenti un'ulteriore opportunità di esplorare contenuti di valore. Viene inoltre presentata una sezione dedicata ai diversi pubblici dell'apprendimento, come studenti, aziende ed educatori, evidenziando l'approccio versatile di Boolearn nell'offrire soluzioni educative personalizzate. La piattaforma si distingue anche per il suo impegno verso un apprendimento inclusivo e accessibile, con una visione chiara di superare le barriere economiche e geografiche. L'aggiunta di elementi visivi, come immagini coinvolgenti e icone, migliora ulteriormente l'esperienza utente, rendendo la navigazione su Boolearn un'esperienza piacevole e motivante. In sintesi, Boolearn è progettato per essere un punto di riferimento nell'apprendimento online, combinando una grafica accattivante con una solida offerta formativa e un forte impegno per l'accessibilità.",
             "start_date":"2022-02-10",
-            "technologies": [1, 2],
+            "technologies": [1, 7, 6, 5, 3, 8],
             "slug":"boolearn",
-            "collaborations":null
+            "link_repo":"https://github.com/giovannimegliola/boolearn",
+            "collaborations":"Realizzato in collaborazione con un team durante il corso di Boolean"
         }
     },
     {
@@ -40,11 +43,12 @@
         "pk": 4,
         "fields": {
             "name": "Boolflix",
-            "description":"descrizione",
+            "description":"Per questo progetto, ho sviluppato una web app dinamica che permette la ricerca di film e serie TV utilizzando l'API di The Movie Database (TMDB). La pagina è stata progettata per fornire un'esperienza simile a quella di Netflix, con un'interfaccia pulita e interattiva. Inizialmente, ho implementato una barra di ricerca che consente agli utenti di inserire titoli di film o serie TV, visualizzando i risultati con informazioni dettagliate come il titolo, il titolo originale, la lingua e il voto medio. Successivamente, ho migliorato l'app introducendo un sistema per mostrare le bandiere nazionali in base alla lingua del film o della serie, e ho esteso la ricerca anche alle serie TV, facendo in modo che le informazioni fossero uniformi nonostante le differenze nei dati tra film e serie. Per arricchire ulteriormente l'esperienza visiva, ho aggiunto le copertine dei film e delle serie, utilizzando le opzioni di dimensionamento delle immagini fornite dall'API di TMDB. Il sistema di valutazione è stato trasformato da un voto decimale (da 1 a 10) in una scala di stelle intere (da 1 a 5), semplificando la rappresentazione delle recensioni attraverso icone grafiche. Infine, ho completato l'app creando un layout simil-Netflix, con un header contenente il logo e la barra di ricerca e una sezione di risultati visualizzati come card interattive. Ogni card presenta la copertina del film o della serie e, quando si passa il mouse sopra di essa, vengono mostrate ulteriori informazioni come la trama e la valutazione. Questo progetto mi ha permesso di migliorare le competenze nell'integrazione di API e nella creazione di interfacce utente responsive e interattive, garantendo un'esperienza di navigazione fluida e piacevole.",
             "start_date":"2022-02-10",
-            "technologies": [1, 2],
+            "technologies": [1, 3, 4, 7, 8],
             "slug":"boolflix",
-            "collaborations":null
+            "link_repo":"https://github.com/giuliamari04/vite-boolflix",
+            "collaborations":"Realizzato in autonomia durante il corso di Boolean"
         }
     },
     {
@@ -52,11 +56,12 @@
         "pk": 5,
         "fields": {
             "name": "Boolzapp",
-            "description":"descrizione",
+            "description":"Per questo progetto ho sviluppato un'app di messaggistica web ispirata a servizi di chat come WhatsApp, utilizzando HTML, CSS e JavaScript per creare un'interfaccia interattiva e user-friendly. Nella fase iniziale, ho strutturato la pagina con una sezione per la lista dei contatti e una per la conversazione attiva, seguendo un layout responsive per garantire una buona esperienza sia su desktop che su mobile. Successivamente, ho aggiunto la funzionalità di ricerca dei contatti e la visualizzazione dinamica della lista tramite una barra di ricerca che filtra i contatti in base al nome inserito. I messaggi vengono visualizzati dinamicamente per ogni contatto selezionato e l'utente può inviare un nuovo messaggio che riceve automaticamente una risposta simulata dopo un breve intervallo. Ho anche integrato funzionalità avanzate come la possibilità di cancellare singoli messaggi o intere conversazioni, la visualizzazione dello stato online e di \"sta scrivendo...\", e l'inserimento di una serie di risposte casuali generate automaticamente. La grafica permette di distinguere i messaggi dell'utente, visualizzati in verde, da quelli dell'interlocutore, mostrati in bianco. Altre funzionalità extra includono un sistema di gestione delle icone (ad esempio il microfono che si trasforma in aeroplano durante la scrittura di un messaggio), e la possibilità di cambiare la modalità di visualizzazione da light a dark mode, nonché di ingrandire o ridurre la dimensione del testo. Inoltre, la versione mobile dell'app alterna la vista tra la lista dei contatti e la chat per garantire una navigazione fluida su schermi più piccoli. L'app è completata da un messaggio di benvenuto all'apertura e una splash page temporanea. Grazie a questo progetto, ho potuto approfondire le mie competenze nello sviluppo di app web dinamiche, nell'uso di array per gestire dati e nella creazione di interfacce responsive e intuitive.",
             "start_date":"2022-02-10",
-            "technologies": [1, 2],
+            "technologies": [1, 2, 8],
             "slug":"boolzapp",
-            "collaborations":null
+            "link_repo":"https://github.com/giuliamari04/vue-boolzapp",
+            "collaborations":"Realizzato in autonomia durante il corso di Boolean"
         }
     },
     {
@@ -64,11 +69,12 @@
         "pk": 6,
         "fields": {
             "name": "Discord",
-            "description":"descrizione",
+            "description":"Il progetto consiste nella creazione di un sito web statico dedicato a Discord, realizzato unicamente in HTML e CSS per replicare la grafica e il design della piattaforma. La struttura del sito è suddivisa in diverse sezioni, ognuna progettata per presentare le funzionalità e i vantaggi di Discord come piattaforma di comunicazione. La parte superiore del sito include un'intestazione con il logo di Discord, che funge da collegamento alla homepage, insieme a una barra di navigazione che offre accesso a sezioni come \"Scarica\", \"Perché Discord\", \"Nitro\", \"Sicurezza\" e \"Assistenza\". Questa barra è progettata per guidare gli utenti attraverso le informazioni essenziali, ma non include funzionalità interattive. La sezione eroica accoglie gli utenti con un messaggio di benvenuto, evidenziando l'importanza di Discord come strumento di comunicazione per gruppi e comunità. Qui, gli utenti possono visualizzare pulsanti progettati per il download dell'app per Mac o per aprire Discord nel browser. Tuttavia, non ci sono collegamenti funzionanti, poiché il sito è statico. Ogni sezione principale del sito presenta immagini rappresentative e testi descrittivi che enfatizzano le caratteristiche dei server Discord, organizzati in canali tematici. Queste sezioni sono progettate per comunicare visivamente i benefici dell'utilizzo di Discord, ma mancano di interattività e dinamismo, dato che non sono presenti script o elementi JavaScript per gestire il contenuto dinamico. Il footer del sito include informazioni supplementari come le lingue disponibili e icone dei social media, ma non offre collegamenti attivi o funzionalità interattive. Il design è focalizzato sull'estetica e sull'organizzazione visiva, piuttosto che sulla funzionalità. In sintesi, questo progetto di sito web rappresenta un esercizio di design, incentrato sulla replica della grafica di Discord utilizzando solo HTML e CSS. La mancanza di funzionalità dinamiche e interattive limita l'usabilità del sito, ma fornisce un'ottima opportunità per esercitarsi nella creazione di layout e stili visivi.",
             "start_date":"2022-02-10",
             "technologies": [1, 2],
             "slug":"discord",
-            "collaborations":null
+            "link_repo":"https://github.com/giuliamari04/htmlcss-discord",
+            "collaborations":"Realizzato in autonomia durante il corso di Boolean"
         }
     },
     {
@@ -76,11 +82,12 @@
         "pk": 7,
         "fields": {
             "name": "Dropbox",
-            "description":"descrizione",
+            "description":"Il progetto consiste nella creazione di una pagina web statica ispirata all'aspetto di Dropbox, realizzata esclusivamente con HTML e CSS. Questa pagina è progettata per replicare visivamente il design e l'estetica dell'interfaccia utente di Dropbox, fornendo un'esperienza simile a quella dell'originale, pur senza funzionalità dinamiche o interattive. La struttura della pagina è organizzata in modo chiaro e intuitivo, con un'intestazione che presenta il logo di Dropbox e una barra di navigazione orizzontale che include link a sezioni. I collegamenti sono stilizzati per mantenere coerenza con il design originale, offrendo un aspetto professionale e moderno. La sezione principale della pagina è caratterizzata da un layout pulito e minimalista, con immagini e icone ben posizionate che illustrano le funzionalità di Dropbox. I testi descrittivi sono formattati per facilitare la lettura e per comunicare in modo efficace i vantaggi del servizio, mantenendo uno stile simile a quello della piattaforma reale. Ulteriori sezioni della pagina includono testimonianze degli utenti e informazioni sui piani tariffari, presentate in un formato facilmente leggibile e accattivante. Ogni sezione è separata da spazi bianchi strategici, creando un equilibrio visivo che guida l'utente attraverso il contenuto senza affaticarlo. Il footer include informazioni di contatto, link ai social media e altre risorse utili, seguendo il design originale e contribuendo a creare un'esperienza utente coerente. In sintesi, questo progetto rappresenta un esercizio di design web, focalizzato sulla creazione di un layout visivamente simile a Dropbox utilizzando solo HTML e CSS. Sebbene manchino elementi interattivi, il progetto offre un'ottima opportunità per praticare le competenze di layout e stilizzazione, risultando in una pagina esteticamente gradevole e ben organizzata.",
             "start_date":"2022-02-10",
             "technologies": [1, 2],
             "slug":"dropbox",
-            "collaborations":null
+            "link_repo":"https://github.com/giuliamari04/htmlcss-dropbox",
+            "collaborations":"Realizzato in autonomia durante il corso di Boolean"
         }
     },
     {
@@ -88,11 +95,12 @@
         "pk": 8,
         "fields": {
             "name": "Spotify",
-            "description":"descrizione",
+            "description":"Il progetto è una pagina web statica realizzata in HTML e CSS, ispirata all'interfaccia di Spotify. Questo layout ricrea visivamente l'aspetto dell'applicazione musicale, mantenendo un design pulito e moderno. La struttura è organizzata in diverse sezioni, tutte progettate per migliorare l'esperienza dell'utente, rendendo facile la navigazione e l'accesso ai contenuti. La barra di navigazione presenta il logo di Spotify e icone intuitive che rappresentano le diverse funzionalità come la home, la ricerca e la libreria personale. Ogni elemento è stilizzato per mantenere la coerenza con il design originale, utilizzando icone di Font Awesome per una rappresentazione visiva accattivante. Il contenuto principale è diviso in sezioni tematiche. La sezione \"Recently Played\" mostra gli album più recentemente ascoltati, accompagnati da immagini di copertina e titoli, rendendo la navigazione visiva e coinvolgente. Ogni album include un overlay con un'icona di riproduzione, invitando l'utente a interagire. Un'altra sezione, \"Creato per me,\" presenta playlist personalizzate, offrendo raccomandazioni basate sugli ascolti precedenti dell'utente. Questo aggiunge un tocco di personalizzazione al layout, migliorando ulteriormente l'esperienza dell'utente. Il progetto include anche una music bar in fondo alla pagina, che simula la barra di controllo della riproduzione musicale, con opzioni per riprodurre, mettere in pausa, avanzare o tornare indietro tra le tracce. Ci sono anche controlli per il volume e la durata della canzone, rendendo il design complessivo più interattivo e funzionale. In termini di design, il progetto utilizza colori scuri con testi chiari per garantire una buona leggibilità e un contrasto visivo piacevole. Le immagini degli album sono presentate in modo da creare un aspetto coeso e armonioso. In sintesi, questo progetto dimostra le abilità di creazione di layout responsive e di design utilizzando solo HTML e CSS, offrendo un'interpretazione visiva della piattaforma Spotify, senza funzionalità interattive o dinamiche, ma concentrandosi sulla rappresentazione estetica e sull'usabilità.",
             "start_date":"2022-02-10",
             "technologies": [1, 2],
             "slug":"spotify",
-            "collaborations":null
+            "link_repo":"https://github.com/giuliamari04/html-css-spotifyweb",
+            "collaborations":"Realizzato in autonomia durante il corso di Boolean"
         }
     }
 ]

@@ -8,6 +8,7 @@ class Posts(models.Model):
     start_date = models.DateField(blank=True,null=True)
     technologies = models.ManyToManyField(Technologies, related_name='posts')
     collaborations = models.TextField(blank=True, null=True)
+    link_repo = models.TextField(blank=True, null=True)
     slug = models.SlugField(max_length=255, unique=True, blank=True)
 
     def save(self, *args, **kwargs):
