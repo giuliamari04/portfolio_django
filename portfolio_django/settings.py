@@ -86,8 +86,8 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'portfolio_django',  # Il nome del database che hai creato tramite phpMyAdmin
         'USER': 'root',                   # Il nome utente del database MySQL
-        'PASSWORD': 'DoraGin2021!',               # La password dell'utente MySQL
-        'HOST': 'localhost',              # Se il server MySQL è in esecuzione localmente
+        'PASSWORD': 'root',               # La password dell'utente MySQL
+        'HOST': '127.0.0.1',              # Se il server MySQL è in esecuzione localmente
         'PORT': '3307',                   # La porta MySQL, solitamente 3306
     }
 }

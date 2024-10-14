@@ -88,5 +88,13 @@
              "name": "Django",    
             "url_logo": "https://img.icons8.com/?size=100&id=mUBILbYvUMq8&format=png&color=000000"
         }
-       }
+       },
+       {
+        "model":"portfolio_app.technologies",
+        "pk":12,
+        "fields":{
+              "name": "Vite",    
+              "url_logo": "https://img.icons8.com/?size=100&id=YO3YqSaTOu5K&format=png&color=000000"
+         }
+        }
     ]
